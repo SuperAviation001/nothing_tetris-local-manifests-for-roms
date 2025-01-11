@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="android_device_nothing_tetris" path="device/nothing/tetris" />
+  <project name="android_vendor_nothing_tetris" path="vendor/nothing/tetris" />
+  <project name="android_kernel_nothing_tetris" path="kernel/nothing/tetris" />
+</manifest>
+
