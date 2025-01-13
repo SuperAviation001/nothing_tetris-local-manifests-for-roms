@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote fetch="git://github.com/" name="gh" />
-  <project name="SuperAviation001/android_device_nothing_tetris" path="device/nothing/tetris" remote="gh"  />
-  <project name="SuperAviation001/android_vendor_nothing_tetris" path="vendor/nothing/tetris" remote="gh" />
-  <project name="SuperAviation001/android_kernel_nothing_tetris" path="kernel/nothing/tetris" remote"gh" />
-</manifest>
-
+  <remote name="gh" fetch="git://github.com/" />
+  <project name="SuperAviation001/android_device_nothing_tetris" path="device/nothing/tetris" revision="NothingOS-2.6" remote="gh" clone-depth="1" />
+  <project name="SuperAviation001/android_vendor_nothing_tetris" path="vendor/nothing/tetris"  remote="gh" revision="NothingOS-2.6" clone-depth="1" />
+  <project name="SuperAviation001/android_kernel_nothing_tetris" path="device/nothing/tetris-kernel" revision="NothingOS-2.6" remote="gh" clone-depth="1" />
+</manifest>  
