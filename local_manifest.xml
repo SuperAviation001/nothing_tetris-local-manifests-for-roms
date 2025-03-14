@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="ghs" fetch="https://github.com/SuperAviation001/" />
-  <project name="android_device_nothing_tetris" path="device/nothing/tetris" revision="Lineage-21" remote="ghs" clone-depth="1" />
-  <project name="android_vendor_nothing_tetris" path="vendor/nothing/tetris"  remote="ghs" revision="Lineage-21" clone-depth="1" />
-</manifest>  
+  <remote name="nothingoss" fetch="https://github.com/NothingOSS/" />
+  <remote name="egitlab" fetch="https://gitlab.e.foundation/e/devices/" />
+  <project name="android_device_nothing_tetris" path="device/nothing/tetris" revision="lineage-22.1" remote="ghs" clone-depth="1" />
+  <project name="android_vendor_nothing_tetris" path="vendor/nothing/tetris"  remote="ghs" revision="a15" clone-depth="1" />
+  <project name="android_kernel_6.1_nothing_mt6878" path="kernel/nothing/tetris" revision="mt6878/Tetris/u" remote="nothingoss" clone-depth="1" />
+  <project name="android_kernel_nothing_tetris-device_modules" path="kernel/nothing/tetris-device_modules"  remote="egitlab" revision="v1-u" clone-depth="1" />
+  <project name="android_device_nothing_tetris-kernel" path="device/nothing/tetris-kernel" revision="a15" remote="ghs" clone-depth="1" />
+</manifest>
